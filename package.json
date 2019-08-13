@@ -1,7 +1,7 @@
 {
   "name": "Poller",
   "version": "1.0.0",
-  "description": "",
+  "description": "Poller",
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
