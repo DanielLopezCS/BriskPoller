@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Segment, Header, Container, Message, Icon, Label } from 'semantic-ui-react'
+import {Header, Container, Message, Icon, Label } from 'semantic-ui-react'
 import { connect } from 'react-redux';
 import {getPoll} from '../../actions/pollActions';
 
@@ -66,7 +66,7 @@ class PollDetail extends Component {
  
   <Label color='white'><Icon color='orange' name='eye'/>{this.props.poll && this.props.poll.views}</Label>
   <Label><Icon color='orange' name='calendar'/>{this.props.poll && this.props.poll.date.substring(0,10)}</Label>
-  <Label><Icon color='orange' name='linkify'/>http://localhost:3000/poll/{this.props.poll && this.props.poll._id}</Label>
+  <Label><Icon color='orange' name='linkify'/>http://briskpoller.herokuapp.com/poll/{this.props.poll && this.props.poll._id}</Label>
            </Container>
           
               }

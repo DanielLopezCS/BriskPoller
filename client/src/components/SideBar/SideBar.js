@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 import {
-  Button,
-  Checkbox,
   Grid,
   Header,
   Icon,
@@ -15,7 +13,6 @@ import {
 
 import {Link} from 'react-router-dom';
 
-import Polls from '../Polls/Polls'
 
 const HorizontalSidebar = ({ animation, direction, visible }) => (
   <Sidebar as={Segment} animation={animation} direction={direction} visible={visible}>
@@ -57,7 +54,7 @@ const VerticalSidebar = ({ animation, direction, visible }) => (
     visible={visible}
     width='thin'
   >
-       <Menu.Item as='a'  as={Link} to ='/' >
+       <Menu.Item  as={Link} to ='/' >
       <Icon name='images' color='orange'  size='huge' />
       <span style={{color:'orange'}}>BriskPoll</span>
     </Menu.Item>
@@ -67,14 +64,16 @@ const VerticalSidebar = ({ animation, direction, visible }) => (
       Create Poll
       
     </Menu.Item>
-    <Menu.Item as='a' as={Link} to ='/polls'>
+    <Menu.Item  as={Link} to ='/polls'>
       <Icon name='align center' />
       View Polls
     </Menu.Item>
-    <Menu.Item as='a' as={Link} to ='/'>
+    <a href = 'https://github.com/DanielLopezCS/BriskPoller'>
+    <Menu.Item >
       <Icon name='code' />
       Source Code
     </Menu.Item>
+    </a>
   </Sidebar>
 )
 

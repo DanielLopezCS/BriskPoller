@@ -1,12 +1,10 @@
 import React, { Component } from 'react'
-import { Button, Checkbox, Form, Container, Segment, Header, Label, Table } from 'semantic-ui-react'
+import { Header, Table } from 'semantic-ui-react'
 import { connect } from 'react-redux';
 import {getPoll, putVote, getCheck} from '../../actions/pollActions';
 
-import { withRouter } from 'react-router-dom';
 
 
-import {HorizontalBar} from 'react-chartjs-2';
 
  
 

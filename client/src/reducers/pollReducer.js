@@ -1,4 +1,4 @@
-import { GET_POLLS, GET_POLL, GET_POLL_TEST, PUT_VOTE, POST_POLL, GET_CHECK, GET_SHOWCASE  } from '../actions/types';
+import { GET_POLLS, GET_POLL, PUT_VOTE, POST_POLL, GET_CHECK, GET_SHOWCASE  } from '../actions/types';
 
 const initialState = {
     loading: false,
@@ -34,11 +34,6 @@ export default function(state = initialState, action) {
         return{
           ...state,
           available: action.payload
-        }
-      case GET_POLL_TEST:
-        return{
-          ...state,
-          memes:'memes'
         }
       case GET_SHOWCASE:
         return{

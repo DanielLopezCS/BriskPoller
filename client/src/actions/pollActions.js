@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {GET_POLLS, GET_POLL, GET_POLL_TEST, GET_ERRORS, PUT_VOTE, POST_POLL, GET_CHECK, GET_SHOWCASE} from './types';
+import {GET_POLLS, GET_POLL, GET_ERRORS, PUT_VOTE, POST_POLL, GET_CHECK, GET_SHOWCASE} from './types';
 
 
 
@@ -105,9 +105,5 @@ export const getCheck = (id)=>dispatch=>{
             payload: 'No poll with that id.',
         })    
     )
-
-}
-export const getPollTest = (id,history)=>dispatch=>{
-    history.push("/");
 
 }

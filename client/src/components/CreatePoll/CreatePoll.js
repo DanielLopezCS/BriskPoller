@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import { Button, Checkbox, Form, Container, Segment, Header, Label } from 'semantic-ui-react'
+import { Button, Checkbox, Form, Container, Segment, Header } from 'semantic-ui-react'
 import {postPoll} from '../../actions/pollActions';
 import { connect } from 'react-redux';
 
@@ -50,7 +50,7 @@ class CreatePoll extends Component {
   
     addOption = e => {
       e.preventDefault()
-      if(e.target.id == this.state.size){
+      if(Number(e.target.id) === Number(this.state.size)){
       let options = this.state.options.concat([''])
       this.setState({
         options,

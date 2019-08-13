@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 import { Icon, Menu, Table, Container, Header } from 'semantic-ui-react'
 import {getPolls} from '../../actions/pollActions';
 import { connect } from 'react-redux';
-import {Link, Router} from 'react-router-dom'
 
 import Spinner from '../Spinner';
 
+/* Used for Poll Archive with pagination*/
 class PollsArchive extends Component {
     state = {
         column: null,
