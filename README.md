@@ -1,72 +1,53 @@
-An App where people can upload their progress stories. Functionality include adding and deleting Stories/Events, Filtering by Subcategory, Favorite/Unfavorite functions, Profile creation/view as well as showing stories of user on profile page, comment system. File upload for Stories and Events using Multer. Authentication uses Passport and JSON Session Tokens. Basic validation and much of the backend finished, some Frontend might wanna be reworked before publishing on Heroku but my focus now is on learning more backend techniques and learning more about the Node environment. MongoDB/MLab for Database, Express for backend framework.
+# BriskPoller
+An App where users can anonymously upload public/private polls. Voters are limited to one vote per IP address and votes are displayed in a Chart.js graph. Emphasis on routing and maintining voter IP address integrity.  
 
+Runtime Environment: Node
+Database: MongoDB
+BackEnd Framework: Express
+FrontEnd Framework: React / Redux
+CSS Framework: Semantic UI React
 
 
 Functionality:
 </br>
 <b>
  </br>
-  *<i>Account/Profile Creation</i>
+  *<i> Create Poll </i>
   </br>
-  *<i>JSON Session Token Authentication with Passport.js<i> 
+  *<i>Vote On Poll<i> 
  </br>
-  *<i>Upload Story/Events</i>
+  *<i>View Poll Results / Graph</i>
  </br>
-  *<i>Upload images to stories/events using Multer</i>
+  *<i> View Poll Archive</i>
   </br>
-   *<i>Different Pages depending if user is owner of Stories for options to edit</i>
+   *<i>Vite Poll Showcase</i>
  </br>
-  *<i>Favorite/Unfavorite Functionalityr</i>
+  *<i>Show Poll Statistics (Views, Link, Date Published, Etc...)</i>
    </br>
-   *<i>Comment Systems</i>
+   *<i>Scalable Pagination</i>
   </br>
-   *<i>Profile View</i>
+   *<i>Loading Screen Spinners</i>
  </br>
-  *<i>Basic Validation/ Error Checking</i>
-  </br>
-   *<i>Redux State Managements</i>
- </br>
- 
-  
-  
   
   </b>
   </br>
   
-Viewing a Story:
+Front Page(Seeing ShowCase):
 </br>
-![Alt text](https://github.com/DanielLopezCS/Progress.-Node-React-MERN-Stack-Progress-Posting-Application./blob/master/Progress/1.png "Viewing Story")
+![Alt text](https://github.com/DanielLopezCS/BriskPoller/blob/master/BriskPollerScreenshots/showcase.png "Showcase")
 
-Adding an event:
+Creating A Poll:
 </br>
-![Alt text](https://github.com/DanielLopezCS/Progress.-Node-React-MERN-Stack-Progress-Posting-Application./blob/master/Progress/2.png "Event Add")
+![Alt text](https://github.com/DanielLopezCS/BriskPoller/blob/master/BriskPollerScreenshots/create.png "Creating Poll")
 
-Commenting:
+Voting On A Poll:
 </br>
-![Alt text](https://github.com/DanielLopezCS/Progress.-Node-React-MERN-Stack-Progress-Posting-Application./blob/master/Progress/3.png "Commenting System")
+![Alt text](https://github.com/DanielLopezCS/BriskPoller/blob/master/BriskPollerScreenshots/vote.png "Voting Poll")
 
-Profile Creation Suggestion If None Found:
+Detail Of Poll:
 </br>
-![Alt text](https://github.com/DanielLopezCS/Progress.-Node-React-MERN-Stack-Progress-Posting-Application./blob/master/Progress/4.png "Profile Creation Suggestion")
+![Alt text](https://github.com/DanielLopezCS/BriskPoller/blob/master/BriskPollerScreenshots/detail.png "Detail Poll")
 
-Profile Creation Profile Creation:
+Archive of Public Polls with Pagination
 </br>
-![Alt text](https://github.com/DanielLopezCS/Progress.-Node-React-MERN-Stack-Progress-Posting-Application./blob/master/Progress/5.png "Profile Creation")
-
-
-Profile View
-</br>
-![Alt text](https://github.com/DanielLopezCS/Progress.-Node-React-MERN-Stack-Progress-Posting-Application./blob/master/Progress/6.png "Profile View")
-
-Story Upload
-</br>
-![Alt text](https://github.com/DanielLopezCS/Progress.-Node-React-MERN-Stack-Progress-Posting-Application./blob/master/Progress/7.png "Story Upload")
-
-Filter results by subcategory:
-</br>
-![Alt text](https://github.com/DanielLopezCS/Progress.-Node-React-MERN-Stack-Progress-Posting-Application./blob/master/Progress/8.png "Filter By Subcategory")
-
-Upload Image to Event or Delete:
-</br>
-![Alt text](https://github.com/DanielLopezCS/Progress.-Node-React-MERN-Stack-Progress-Posting-Application./blob/master/Progress/9.png "Event editn")
-
+![Alt text](https://github.com/DanielLopezCS/BriskPoller/blob/master/BriskPollerScreenshots/archive.png "Archive of Public Polls")
