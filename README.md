@@ -7,6 +7,7 @@ BackEnd Framework: Express
 FrontEnd Framework: React / Redux
 CSS Framework: Semantic UI React
 
+(Note: If you wish to clone and run on local host, change value of 'mongoURI' in the 'default.json' file inside the config folder in the root directory to your MLab key).
 
 Functionality:
 </br>
