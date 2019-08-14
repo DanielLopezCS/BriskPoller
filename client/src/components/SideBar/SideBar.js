@@ -56,7 +56,7 @@ const VerticalSidebar = ({ animation, direction, visible }) => (
   >
        <Menu.Item  as={Link} to ='/' >
       <Icon name='images' color='orange'  size='huge' />
-      <span style={{color:'orange'}}>BriskPoll</span>
+      <span style={{color:'orange'}}>BriskPoller</span>
     </Menu.Item>
     <Menu.Item as={Link} to ='/create'>
       <Icon name='pen square'  />

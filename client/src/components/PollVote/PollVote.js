@@ -30,7 +30,7 @@ class PollVote extends Component {
     render() {
         return (
             <div >             
-              {this.props.poll &&  <div >  <Header> Should I meme? </Header>
+              {this.props.poll &&  <div >  <Header> Voting </Header>
      <Table celled selectable size='large'>
     <Table.Header>
       <Table.Row>
