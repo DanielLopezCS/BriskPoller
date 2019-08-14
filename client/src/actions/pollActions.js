@@ -4,7 +4,7 @@ import {GET_POLLS, GET_POLL, GET_ERRORS, PUT_VOTE, POST_POLL, GET_CHECK, GET_SHO
 
 
 //defining base URL
-axios.defaults.baseURL = 'https://briskpoller.herokuapp.com/';
+axios.defaults.baseURL = 'http://localhost:5000/';
 
 
 export const getPolls = ()=>dispatch=>{
